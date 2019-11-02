@@ -1,0 +1,92 @@
+﻿*{
+    padding: 0;
+}
+body {
+    font-family: 'opens sans';
+    font-size: 16px;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    height: 600px;
+    /*background-image: url(../imagenes/imgdex/fondo.jpg);*/
+    background: #1a2a6c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, hsla(41, 98%, 58%, 0.603), hsla(0, 70%, 41%, 0.603), hsla(228, 61%, 26%, 0.603)), url(../imagenes/imgdex/fondo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, hsla(41, 98%, 58%, 0.603), hsla(0, 70%, 41%, 0.603), hsla(228, 61%, 26%, 0.603)), url(../imagenes/imgdex/fondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlaces {
+    margin: 30px 0 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+}
+
+#descri {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: wheat;
+}
+
+#btninfo {
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#tablita {
+    background: transparent;
+    border-color: transparent;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(0,0,0,.8);
+    padding: 18px;
+    border-radius: 38px;
+    color: black;
+
+
+}
+#btninfo:hover{
+    color: red;
+}
+#sm{
+    color: white;
+    font-family: Verdana;
+}
